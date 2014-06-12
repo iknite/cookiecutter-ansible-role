@@ -17,11 +17,43 @@ Features
 Usage
 -----
 
-    cookiecutter https://github.com/iknite/cookiecutter-ansible-repo.git
+    cookiecutter https://github.com/iknite/cookiecutter-ansible-role.git
 
 It begin to ask you configuration variables then you can enter tasks names, handlers names, and default variables
 Example:
 
+    ROLE CONFIGURATION:
+
+    It should had tasks?  [Y/n] y
+    Add a tasks name i.e (Installing packages): fist task
+    Add a tasks name i.e (Installing packages): next task
+    Add a tasks name i.e (Installing packages): tasks will appear until a empty task names appears
+    Add a tasks name i.e (Installing packages): 
+    It should had handlers? [Y/n] 
+    Add a handlers name i.e (Installing packages): restart something
+    Add a handlers name i.e (Installing packages): alert someone
+    Add a handlers name i.e (Installing packages): 
+    It should contain default variables?:  [Y/n] 
+    Add a variable i.e (operator: User Name): variable_name: value
+    Add a variable i.e (operator: User Name): 
+    It should had templates?  [Y/n] y
+    It should had files?  [Y/n] n
+
+This will generate this folders (Please note the absence of files folder):
+
+    .
+    ├── CONTRIBUTORS.txt
+    ├── defaults
+    │   └── main.yml
+    ├── handlers
+    │   └── main.yml
+    ├── LICENSE.rst
+    ├── meta
+    │   └── main.yml
+    ├── README.rst
+    ├── tasks
+    │   └── main.yml
+    └── templates
 
 
 Contributings
