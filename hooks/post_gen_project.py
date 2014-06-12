@@ -41,9 +41,8 @@ def configure_role():
         if query_yes_no(folder['question']):
             if 'hint' in folder:
                 with open('{}/main.yml'.format(folder_name), 'a') as fp:
-                    action_name = True
+                    action_name = input(folder['hint'])
                     while action_name:
-                        action_name = input(folder['hint'])
                         fp.write(folder['action'].format(action_name))
         else:
            shutil.rmtree(folder_name)
