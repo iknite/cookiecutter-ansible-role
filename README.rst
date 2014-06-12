@@ -20,7 +20,7 @@ Usage
     cookiecutter https://github.com/iknite/cookiecutter-ansible-role.git
 
 It begin to ask you configuration variables then you can enter tasks names, handlers names, and default variables
-Example:
+Example::
 
     ROLE CONFIGURATION:
 
@@ -39,7 +39,7 @@ Example:
     It should had templates?  [Y/n] y
     It should had files?  [Y/n] n
 
-This will generate this folders (Please note the absence of files folder):
+This will generate this folders (Please note the absence of files folder)::
 
     .
     ├── CONTRIBUTORS.txt
@@ -54,7 +54,6 @@ This will generate this folders (Please note the absence of files folder):
     ├── tasks
     │   └── main.yml
     └── templates
-
 
 Contributings
 -------------
