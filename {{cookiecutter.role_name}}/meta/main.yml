@@ -1,19 +1,31 @@
 ---
+
+allow_duplicates: {{ cookiecutter.allow_duplicates }}
+
+
 galaxy_info:
   author: {{ cookiecutter.full_name }}
   description: {{ cookiecutter.short_description }}
   license: 3-clause BSD license.
   min_ansible_version: {{ cookiecutter.min_ansible_version }}
   platforms:
-    # TODO: Please define your target platforms for the role.
     - name: Ubuntu
-    versions:
-      14.04
+      versions:
+        14.04
   categories:
-    # TODO: Update categories for the role
-    - development
+    #- cloud
+    #- cloud:ec2
+    #- cloud:gce
+    #- cloud:rax
+    #- clustering
+    #- database
+    #- database:nosql
+    #- database:sql
+    #- development
+    #- monitoring
+    #- networking
+    #- packaging
+    #- system
+    #- web
 
-allow_duplicates: {{ cookiecutter.allow_duplicates }}
-dependencies:
-  # TODO: Add other roles that this role depends on
 

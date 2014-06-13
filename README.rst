@@ -19,23 +19,29 @@ Usage
 
     cookiecutter https://github.com/iknite/cookiecutter-ansible-role.git
 
-It begin to ask you configuration variables then you can enter tasks names, handlers names, and default variables
+It begin to ask you configuration variables then you can enter tasks names,
+handlers names, and default variables. 
+
+Inside a `Add <some> name i.e (<example>)` you can go to next section by entering
+an empty string.
+
+
 Example::
 
     ROLE CONFIGURATION:
 
     It should had tasks?  [Y/n] y
-    Add a tasks name i.e (Installing packages): fist task
-    Add a tasks name i.e (Installing packages): next task
-    Add a tasks name i.e (Installing packages): tasks will appear until a empty task names appears
-    Add a tasks name i.e (Installing packages): 
+    Add task name i.e (Install packages): fist task
+    Add task name i.e (Install packages): next task
+    Add task name i.e (Install packages): the next one will cut the cycle
+    Add task name i.e (Install packages): 
     It should had handlers? [Y/n] 
-    Add a handlers name i.e (Installing packages): restart something
-    Add a handlers name i.e (Installing packages): alert someone
-    Add a handlers name i.e (Installing packages): 
-    It should contain default variables?:  [Y/n] 
-    Add a variable i.e (operator: User Name): variable_name: value
-    Add a variable i.e (operator: User Name): 
+    Add handler name i.e (Restart uwsgi): restart something
+    Add handler name i.e (Restart uwsgi): alert someone
+    Add handler name i.e (Restart uwsgi): 
+    It should had default variables?:  [Y/n] 
+    Add variable i.e (operator: User Name): variable_name: value
+    Add variable i.e (operator: User Name): 
     It should had templates?  [Y/n] y
     It should had files?  [Y/n] n
 
