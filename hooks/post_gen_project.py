@@ -16,19 +16,19 @@ folders = OrderedDict()
 
 folders['tasks']= {
     'question': '\nIt should had tasks? ',
-    'hint': '  Add task name i.e (Install packages): ',
+    'hint': '  Add task name i.e (Install packages) ',
     'action': '- name: {}\n  # TODO\n\n'
 }
 
 folders['handlers'] = {
     'question': '\nIt should had handlers?',
-    'hint': '  Add handler name i.e (Restart uwsgi): ',
+    'hint': '  Add handler name i.e (Restart uwsgi) ',
     'action': '- name: {}\n  # TODO\n\n'
 }
 
 folders['defaults'] = {
     'question': '\nIt should contain default variables?: ',
-    'hint': '  Add variable i.e (operator: : drunken_master)',
+    'hint': '  Add variable i.e (operator: drunken_master) ',
     'action': '{}\n\n'
 }
 
@@ -36,7 +36,7 @@ folders['meta']= {
     'question': '\nIt should had meta info? ',
     'pre_hint': ' - It should had dependecies? ',
     'pre_action': '\ndependencies:\n',
-    'hint': '    Add dependecy i.e ({role: aptsupercow, apt_state=present}): ',
+    'hint': '    Add dependecy i.e ({role: aptsupercow, var: \'value\'}) ',
     'action': '  - {}\n'
 }
 

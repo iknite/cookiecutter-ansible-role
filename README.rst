@@ -29,51 +29,57 @@ an empty string.
 Example::
 
     ROLE CONFIGURATION:
+    ===================
 
-    It should had tasks?  [Y/n] y
-    Add task name i.e (Install packages): fist task
-    Add task name i.e (Install packages): next task
-    Add task name i.e (Install packages): the next one will cut the cycle
-    Add task name i.e (Install packages): 
+    It should had tasks?  [Y/n] 
+      Add task name i.e (Install packages) Add some task
+      Add task name i.e (Install packages) another task 
+      Add task name i.e (Install packages) 
+
     It should had handlers? [Y/n] 
-    Add handler name i.e (Restart uwsgi): restart something
-    Add handler name i.e (Restart uwsgi): alert someone
-    Add handler name i.e (Restart uwsgi): 
-    It should had default variables?:  [Y/n] 
-    Add variable i.e (operator: User Name): variable_name: value
-    Add variable i.e (operator: User Name): 
-    It should had templates?  [Y/n] y
-    It should had files?  [Y/n] n
+      Add handler name i.e (Restart uwsgi) restart something
+      Add handler name i.e (Restart uwsgi) alert someone
+      Add handler name i.e (Restart uwsgi) 
 
-This will generate this folders (Please note the absence of files folder)::
+    It should contain default variables?:  [Y/n] 
+      Add variable i.e (operator: : drunken_master) var: name
+      Add variable i.e (operator: : drunken_master)      
+
+    It should had meta info?  [Y/n] 
+     - It should had dependecies?  [Y/n] 
+        Add dependecy i.e ({role: aptsupercow, var: 'value'}) {role: cool, version: latest}
+        Add dependecy i.e ({role: aptsupercow, var: 'value'}) 
+
+    It should had templates?  [Y/n] n
+
+    It should had files?  [Y/n] y
+    
+This will generate this folders (Please note the absence of templates folder)::
 
     .
     ├── CONTRIBUTORS.txt
     ├── defaults
     │   └── main.yml
+    ├── files
     ├── handlers
     │   └── main.yml
     ├── LICENSE.rst
     ├── meta
     │   └── main.yml
     ├── README.rst
-    ├── tasks
-    │   └── main.yml
-    └── templates
+    └── tasks
+        └── main.yml
 
-Contributings
--------------
+Contributing
+------------
 
-All contributings are more than welcome, please do so.
+All contributions are more than welcome, please do so.
 
 
 License
 -------
 
-3-clause BSD license.
-Copyright ©2013, Enrique Paredes
-
-
-
-Enjoy it! 
+* 3-clause BSD license.
+* Copyright ©2014, Enrique Paredes
+* Enjoy it!
 
