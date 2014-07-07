@@ -31,12 +31,12 @@ Example::
     ROLE CONFIGURATION:
     ===================
 
-    It should had tasks?  [Y/n] 
+    Should it have tasks?  [Y/n] 
       Add task name i.e (Install packages) Add some task
       Add task name i.e (Install packages) another task 
       Add task name i.e (Install packages) 
 
-    It should had handlers? [Y/n] 
+    Should it have handlers? [Y/n] 
       Add handler name i.e (Restart uwsgi) restart something
       Add handler name i.e (Restart uwsgi) alert someone
       Add handler name i.e (Restart uwsgi) 
@@ -45,14 +45,14 @@ Example::
       Add variable i.e (operator: : drunken_master) var: name
       Add variable i.e (operator: : drunken_master)      
 
-    It should had meta info?  [Y/n] 
-     - It should had dependecies?  [Y/n] 
+    Should it have meta info?  [Y/n] 
+     - Should it have dependecies?  [Y/n] 
         Add dependecy i.e ({role: aptsupercow, var: 'value'}) {role: cool, version: latest}
         Add dependecy i.e ({role: aptsupercow, var: 'value'}) 
 
-    It should had templates?  [Y/n] n
+    Should it have templates?  [Y/n] n
 
-    It should had files?  [Y/n] y
+    Should it have files?  [Y/n] y
     
 This will generate this folders (Please note the absence of templates folder)::
 

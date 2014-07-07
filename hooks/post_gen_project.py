@@ -15,13 +15,13 @@ except NameError:
 folders = OrderedDict()
 
 folders['tasks']= {
-    'question': '\nIt should had tasks? ',
+    'question': '\nShould it have tasks? ',
     'hint': '  Add task name i.e (Install packages) ',
     'action': '- name: {}\n  # TODO\n\n'
 }
 
 folders['handlers'] = {
-    'question': '\nIt should had handlers?',
+    'question': '\nShould it have handlers?',
     'hint': '  Add handler name i.e (Restart uwsgi) ',
     'action': '- name: {}\n  # TODO\n\n'
 }
@@ -33,19 +33,19 @@ folders['defaults'] = {
 }
 
 folders['meta']= {
-    'question': '\nIt should had meta info? ',
-    'pre_hint': ' - It should had dependecies? ',
+    'question': '\nShould it have meta info? ',
+    'pre_hint': ' - Should it have dependecies? ',
     'pre_action': '\ndependencies:\n',
     'hint': '    Add dependecy i.e ({role: aptsupercow, var: \'value\'}) ',
     'action': '  - {}\n'
 }
 
 folders['templates'] = {
-    'question': '\nIt should had templates? ',
+    'question': '\nShould it have templates? ',
 }
 
 folders['files'] = {
-    'question': '\nIt should had files? ',
+    'question': '\nShould it have files? ',
 }
 
 
