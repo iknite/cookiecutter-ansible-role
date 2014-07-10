@@ -8,8 +8,8 @@ It infuses antigravity (or maybe not).
 
 Features
 --------
-  * follow `best practices`_.
-  * create only the needed files and folders.
+  * Follows `best practices`_.
+  * Only Creates the necessary files and folders.
   * Blazing fast creation, forget about file creation and focus in actions.
 
 .. _`best practices`: http://docs.ansible.com/playbooks_best_practices.html
@@ -53,7 +53,7 @@ Example::
     Should it have templates?  [Y/n] n
 
     Should it have files?  [Y/n] y
-    
+
 This will generate this folders (Please note the absence of templates folder)::
 
     .
@@ -70,8 +70,8 @@ This will generate this folders (Please note the absence of templates folder)::
     └── tasks
         └── main.yml
 
-Contributing
-------------
+Contributions
+-------------
 
 All contributions are more than welcome, please do so.
 
