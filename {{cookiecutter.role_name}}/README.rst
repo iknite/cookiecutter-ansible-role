@@ -1,7 +1,7 @@
 {{cookiecutter.role_name}}
 ===========================
 
-{{cookiecutter.description}}
+{{cookiecutter.short_description}}
 
 Usage
 -----
@@ -13,7 +13,7 @@ LICENSE: 3-clause BSD license.
 CONTRIBUTING
 ------------
 
-git clone git@github.com:{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}
+git clone git@github.com:{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
 
 please see CONTRIBUTING.rst
 
