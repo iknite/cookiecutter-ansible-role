@@ -1,1 +1,1 @@
-{{cookiecutter.author_name}}
+{{cookiecutter.full_name}}
