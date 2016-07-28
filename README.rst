@@ -46,9 +46,9 @@ Example::
       Add variable i.e (operator: : drunken_master)      
 
     Should it have meta info?  [Y/n] 
-     - Should it have dependecies?  [Y/n] 
-        Add dependecy i.e ({role: aptsupercow, var: 'value'}) {role: cool, version: latest}
-        Add dependecy i.e ({role: aptsupercow, var: 'value'}) 
+     - Should it have dependencies?  [Y/n] 
+        Add dependency i.e ({role: aptsupercow, var: 'value'}) {role: cool, version: latest}
+        Add dependency i.e ({role: aptsupercow, var: 'value'}) 
 
     Should it have templates?  [Y/n] n
 

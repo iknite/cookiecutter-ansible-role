@@ -34,9 +34,9 @@ folders['defaults'] = {
 
 folders['meta']= {
     'question': '\nShould it have meta info? ',
-    'pre_hint': ' - Should it have dependecies? ',
+    'pre_hint': ' - Should it have dependencies? ',
     'pre_action': '\ndependencies:\n',
-    'hint': '    Add dependecy i.e ({role: aptsupercow, var: \'value\'}) ',
+    'hint': '    Add dependency i.e ({role: aptsupercow, var: \'value\'}) ',
     'action': '  - {}\n'
 }
 
